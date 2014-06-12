@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>DAILY BUDGET</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header>
+        <h1>DAILY BUDGET</h1>
+        <section id="typeofEntry">
+            <form action="">
+                <button id="expenditureAdd">Expenditure</button>
+            </form>
+        </section>
+    </header>
+    <section id="Expenditure-container">
+            <table id="addExpenseTable">
+            <tr>
+            <td><b>Date:</b></td>
+            <td>
+            <input id="datePicker" type="text" />
+            </td>
+            </tr><tr>
+            <td><b>Category:</b></td>
+            <td></td>
+            </tr><tr>
+            <td><b>Source:</b></td>
+            <td><input id="sourcePayment" type="text" maxlength="43"  /></td>
+            <tr>
+            <td><b>Description:</b></td>
+            <td><input id="description" type="text"></td>
+            </tr><tr>
+            <td><b>Payment Mode:</b></td>
+            <td><input id="paymentMode"  type="text" maxlength="43"></td>
+            </tr><tr>
+            <td><b>Amount:</b></td>
+            <td><input id="amount" type="text" maxlength="43" style="" /></td>
+            </tr>
+            </table>
+        </section>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery-script.js"></script>
+</body>
+</html>
